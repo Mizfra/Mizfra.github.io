@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>portfolio</title>
+	<link rel="stylesheet" type="text/css" href="wow.css">
+	<link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+	<meta charset="utf-8">
+</head> 
+
+<body>
+<div class="Container">
+
+	<div class="intro" style="background-image: url(flow.jpg.jpg); background-size: cover; border-radius: 15px;">
+		<a name="main"></a>
+		<div class="menu">
+	 <ul>
+		
+		<li><label id="dark"></label></li>
+		<li><a href="#section0">About me</a></li>
+		<li><a href="#section1">Ongoing</a></li>
+		<li><a href="#section2">Planed</a></li>
+		<li><a href="#section3"> Finished</a></li>
+
+	</ul>
+
+</div>
+		
+	<button id="up">
+
+		<a href="#main">
+			<h1 style="font-size: 60px; margin: auto;">
+				^
+			</h1>
+		</a>
+	</button>
+
+
+		<div id="introtext">
+			<h1>
+				Margo
+			</h1>
+			<p>
+				This page contains information about fellow adult Mergis
+			</p>
+	</div>
+
+
+<button class="button1"> 
+	<a href="#section1" style="text-decoration: none; margin: auto;">Portfolio</a>
+</button>
+</div>
+
+
+
+<div style="display: flex;"><a name="section0"></a>
+
+	<div class="about">
+		<h3 class="sometext">
+			<h3>
+				About me
+			</h3>
+			<img src="margo.png" style="width: 150px; height: 150px; margin-top: 10px;">
+		</h3>
+		<p class="moretext">
+			Mitt namn är Margo. Jag har gåt på NTI innan faktiskt ja då. 
+		</p>
+	</div>
+
+	<div class="about">
+		<h3>
+			My skills 
+		</h3>
+		<p class="moretext">
+			Min programerings förmåga är inte det bästa, men jag gillar att få lära mig nytt och är redo för att göra just det över följande år. 
+			<br><br>
+			HTML/CSS
+			<br><br>
+			Blender
+		</p>
+	</div>
+
+	<div class="about"> 
+		<h3>
+			Other hobbies
+		</h3>
+		<p class="moretext">
+		Jag är en estetiskt belagd själ (Chockande jag vet). Majoriteten fritiden spenderar jag altingen genom att måla med olja i en atelje eller att rita på min ipad. På  senaste har jag även varit intreserad av cosplay, då jag både craftar big swords and make some other cool stuff. Jag gillar även att spela. Jag fick btw en B i svenka, hopas att det märks :3
+		<br><br>
+		I hope you, the person reading this will have a good rest of the day/evening ^^
+		</p>
+	</div>
+</div>
+
+
+
+
+<div class="thedivs">
+	<a name="section1"></a>
+	<h3 class="sometext">
+		Ongoing
+	</h3>
+</div>
+
+
+<div class="thedivs">
+	<a name="section2"></a>
+	<h3 class="sometext">
+		Planed
+	</h3>
+</div>
+
+
+<div class="thedivs">
+	<a name="section3"></a>
+<h3 class="sometext">
+	Finished
+</h3>
+</div>
+
+
+
+<div class="footer">
+
+<p class="copy" style="color: black; margin: auto; text-align: center;"> &copy; Margarita Shaposhnikova</p>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+	var content = document.getElementsByTagName('body')[0];
+	var darkMode = document.getElementById('dark');
+	darkMode.addEventListener('click', function(){
+		darkMode.classList.toggle('active');
+		content.classList.toggle('night')
+	})
+</script>
+</body>
+</html>

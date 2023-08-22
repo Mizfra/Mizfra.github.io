@@ -1,0 +1,188 @@
+body{
+	background-color: #fefaff;
+}
+
+
+.intro{
+	
+	width: 75%;
+	height: 480px;
+	margin: auto;
+	margin-top: 25px;
+	padding: 40px;
+	box-shadow: 12px 7px #415e44;
+}
+
+
+
+#introtext{
+	
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 125px;
+	font: 
+}
+label{
+	position: absolute;
+	width: 45px;
+	height: 22px;
+	border: 2px solid;
+	border-radius: 20px;
+	color: white;
+	left: 600px;
+
+}
+
+label:before{
+	position: absolute;
+	content: "";
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	background: white;
+	color: white;
+	left: 1px;
+	top: 1px;
+	transition: 0.4s;
+
+}
+
+label.active:before{
+	left: 22px;
+	background: white;
+}
+
+body.night{
+	background: #1f1f1f;
+}
+#up{
+	position: fixed;
+	background: #204223;
+	width: 65px;
+	height: 50px;
+	margin-left: 1000px;
+	margin-top: 400px;
+	border-radius: 4px;
+}
+
+.button1{
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+	background-color: #204223;
+	position: relative;
+	margin-left: 50px;
+	margin-top: 50px;
+	z-index: 1; 
+	transition: ease-out 0.3s;
+	text-decoration: none;
+}
+
+.button1:before{
+	transition: 0.5s all ease;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	right: 50%;
+	bottom: 0;
+	opacity: 0;
+	content: "";
+	background-color: black;
+}
+
+.button1:hover:before {
+	transition: 0.5s all ease;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	z-index: -1;
+}
+
+.thedivs{
+	width: 60%;
+	height:450px;
+	background-color: #f0f0f0;
+	border-radius: 15px;
+	text-align: center;
+	margin: auto;
+	margin-top: 60px;
+	box-shadow: 12px 10px #83a386;
+	font-family: 'Outfit';
+
+}
+
+.moretext{
+	color: black;
+	font-family: 'Outfit';
+	text-align: center;
+	margin: auto;
+	width: 250px;
+	margin-top: 50px;
+
+}
+
+.about{
+	width: 350px;
+	height:550px;
+	background-color: #f0f0f0;
+	border-radius: 15px;
+	text-align: center;
+	margin: auto;
+	margin-top: 60px;
+	box-shadow: 12px 10px #83a386;
+	text-align: center;
+	font-family: 'Outfit';font-size: medium;
+	
+
+}
+
+
+.sometext{
+	width: 500px;
+	margin: auto;
+	color: black;
+	font-family: 'Outfit';font-size: medium;
+}
+
+.footer{
+	margin-top:60px;
+	font-family: 'Outfit';
+}
+
+p{
+	font-family: 'Outfit';
+	 font-size: small;
+	 color: white;
+}
+
+h1{
+	font-family: 'Outfit';
+	color: white;
+}
+
+
+h5{
+	font-family: 'Outfit';
+	color: white;
+}
+
+li,a{
+	display: inline;
+	margin-right: 20px;
+	font-family: 'Outfit';
+	color: white;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+li a:hover{
+	color: grey;
+}
+
+ul {
+	text-align: right;
+}
